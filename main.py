@@ -52,7 +52,7 @@ def main():
     for i in range(0, int(cars_number)):
         paths.append(Car(lines.pop(0)))
 
-    file = open("Result-" + sys.argv[1], "w")
+    file = open("result-" + sys.argv[1], "w")
 
     file.write(str(len(intersections.keys())) + "\n")
     for k, v in intersections.items():
